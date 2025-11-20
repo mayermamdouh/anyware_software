@@ -43,8 +43,14 @@ This project is a React.js dashboard application that displays announcements and
    ```bash
    npm install
    ```
+   
+ 3. Create a .env file in the root directory with your VITE_API_BASE_URL:
 
-3. Run the development server:
+   ```bash
+   VITE_API_BASE_URL=<your-VITE_API_BASE_UR>
+   ```  
+
+4. Run the development server:
 
    ```bash
    npm run dev
